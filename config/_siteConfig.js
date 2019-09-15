@@ -10,7 +10,7 @@ import theCMS from '../cms/netlify/cms'
  */
 export default {
   siteName: '日本語補習校ベン',
-  tagline: 'ここにはモットーが入ります',
+  tagline: 'Japanische Schule Ben',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
@@ -19,26 +19,16 @@ export default {
   },
   mainMenu: [
     {
-      name: 'About',
+      name: '学校紹介',
       link: '/about'
     },
     {
-      name: 'Contact',
+      name: 'お問い合わせ',
       link: '/contact'
     },
     {
       name: 'Categories',
       link: '/categories'
-    },
-    {
-      name: 'Github Repo',
-      link: 'https://github.com/danielkellyio/awake-template',
-      target: '_blank'
-    },
-    {
-      name: 'Awake+ Premium',
-      link: 'http://awake-premium-lp.danielkelly.io/',
-      target: '_blank'
     }
   ],
   hero: {
